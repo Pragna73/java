@@ -1,0 +1,13 @@
+import java.util.*;
+class Chartest
+{
+public static void main(String arg[])
+{
+Scanner sc=new Scanner(System.in);
+
+char x;
+
+x=sc.next().charAt(0);
+System.out.println("given char is"+x);
+}
+}
