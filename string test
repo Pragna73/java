@@ -1,0 +1,8 @@
+class StringTest
+{
+public static void main(String arg[])
+{
+String x="Saveetha";
+System.out.println("given string is"+x);
+}
+}
