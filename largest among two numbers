@@ -1,0 +1,21 @@
+import java.util.*;
+class Largest
+{
+public static void main(String arg[])
+{
+Scanner sc=new Scanner(System.in);
+int a,b;
+System.out.println("enter A");
+a=sc.nextInt();
+System.out.println("enter B");
+b=sc.nextInt();
+if(a>b)
+{
+System.out.println("A is greater than B");
+}
+else
+{
+System.out.println("B is greater than A");
+}
+}
+}
