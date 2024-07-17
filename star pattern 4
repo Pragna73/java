@@ -1,0 +1,19 @@
+import java.util.*;
+class Star4
+{
+public static void main(String arg[])
+{
+Scanner sc=new Scanner(System.in);
+int i,n,j;
+System.out.println("enter n");
+n=sc.nextInt();
+for(i=1;i>=1;i--)
+{
+for(j=1;j<=1;j++)
+{
+System.out.print("*");
+}
+System.out.println();
+}
+}
+}
