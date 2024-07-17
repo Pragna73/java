@@ -1,0 +1,35 @@
+import java.util.*;
+class Array5
+{
+public static void main(String arg[])
+{
+Scanner sc=new Scanner(System.in);
+int a[]=new int[10];
+int i,find,flag=0;
+System.out.println("the array values are:");
+for(i=0;i<5;i++)
+{
+a[i]=sc.nextInt();
+}
+System.out.println("the array values to find:");
+find=sc.nextInt();
+for(i=0;i<5;i++)
+{
+if(a[i]==find)
+{
+flag=1;
+break;
+}
+}
+if(flag==1)
+{
+System.out.println(find+" value found in the array");
+System.out.println(find+" value found in the array"+i+" position");
+}
+else
+{
+System.out.println(find+"not found in the array");
+}
+}
+}
+
