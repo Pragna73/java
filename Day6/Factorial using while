@@ -1,0 +1,14 @@
+class Factorial1
+{
+public static void main(String arg[])
+{
+int n=5,i=1,fact=1;
+while(i<=n)
+{
+fact=fact*i;
+i++;
+}
+System.out.println(fact);
+}
+}
+
