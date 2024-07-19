@@ -1,0 +1,17 @@
+import java.util.*;
+class Table1
+{
+public static void main(String arg[])
+{
+Scanner sc=new Scanner(System.in);
+int n,m;
+System.out.println("enter the number which u have to get the table");
+n=sc.nextInt();
+System.out.println("enter the number till which u have to multiply");
+m=sc.nextInt();
+while(m<=100t0)
+{
+System.out.println(n+"*"+m+"="+n*m);
+}
+}
+}
