@@ -1,0 +1,17 @@
+import java.util.*;
+class Display2
+{
+public static void main(String arg[])
+{
+Scanner sc=new Scanner(System.in);
+int n;
+System.out.println("enter the number till you have to display");
+n=sc.nextInt();
+do
+{
+System.out.println(n);
+n++;
+}
+while(n<10);
+}
+}
