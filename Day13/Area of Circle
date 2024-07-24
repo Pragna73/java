@@ -1,0 +1,27 @@
+class Area
+{
+	int r;
+	double area;
+	void get()
+	{
+		r=6;
+	}
+	void cal()
+	{
+		area=r*r*3.14;
+	}
+	void disp()
+	{
+		System.out.println("output="+area);
+	}
+}
+class AreaTest
+{
+	public static void main(String arg[])
+	{
+		Area obj=new Area();	
+		obj.get();
+		obj.cal();
+		obj.disp();
+	}
+}
