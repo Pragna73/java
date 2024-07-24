@@ -1,0 +1,30 @@
+import java.util.*;
+class Area
+{
+	Scanner sc=new Scanner(System.in);
+	int r;
+	double area;
+	void get()
+	{
+		System.out.println("enter radius:");
+		r=sc.nextInt();
+	}
+	void cal()
+	{
+		area=r*r*3.14;
+	}
+	void disp()
+	{
+		System.out.println("output="+area);
+	}
+}
+class AreaTest1
+{
+	public static void main(String arg[])
+	{
+		Area obj=new Area();	
+		obj.get();
+		obj.cal();
+		obj.disp();
+	}
+}
